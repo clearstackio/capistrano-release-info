@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ajaya@clearstack.io"]
   spec.summary       = %q{ReleaseInfo support for Capistrano 3.x}
   spec.description   = %q{ReleaseInfo support for Capistrano 3.x}
-  spec.homepage      = "https://github.com/codetheoryio/release-info"
+  spec.homepage      = "https://github.com/codetheoryio/capistrano-release-info"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
