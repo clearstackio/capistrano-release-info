@@ -1,0 +1,9 @@
+load File.expand_path('../release-info.cap', __FILE__)
+
+namespace :deploy do
+  desc 'Restart your ReleaseInfo application'
+  task :restart do
+    invoke('release-info:restart')
+  end
+  after :publishing, :'deploy:restart'
+end
